@@ -23,6 +23,33 @@
       <label><input type="checkbox" id="caffeine"> カフェイン</label>
     </div>
 
+    <div id="meds-area" class="section hidden">
+      <h3>薬の詳細</h3>
+      <label>服薬タイミング:
+        <select id="meds-timing">
+          <option value="">選択してください</option>
+          <option value="起床時">起床時</option>
+          <option value="朝食前">朝食前</option>
+          <option value="朝食後">朝食後</option>
+          <option value="昼食前">昼食前</option>
+          <option value="昼食後">昼食後</option>
+          <option value="夕食前">夕食前</option>
+          <option value="夕食後">夕食後</option>
+          <option value="就寝前">就寝前</option>
+        </select>
+      </label>
+    </div>
+
+    <div id="alcohol-area" class="section hidden">
+      <h3>アルコールの詳細</h3>
+      <label>種類や量: <input type="text" id="alcohol-detail"></label>
+    </div>
+
+    <div id="caffeine-area" class="section hidden">
+      <h3>カフェインの詳細</h3>
+      <label>種類や量: <input type="text" id="caffeine-detail"></label>
+    </div>
+
     <div class="section">
       <h3>睡眠</h3>
       <label>就寝: <input type="time" id="sleep-start"></label>

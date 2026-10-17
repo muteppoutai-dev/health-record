@@ -50,3 +50,6 @@ input[type="time"], input[type="text"], select, textarea {
   margin-right: 8px;
 }
 
+.hidden {
+  display: none;
+}

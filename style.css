@@ -1,1 +1,52 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 16px;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2, h3 {
+  margin-top: 0;
+  color: #4CAF50;
+}
+
+.section {
+  background: #fff;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+input[type="time"], input[type="text"], select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.toggles label {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.toggles input[type="checkbox"] {
+  transform: scale(1.5);
+  margin-right: 8px;
+}
 

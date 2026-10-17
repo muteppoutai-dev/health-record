@@ -8,8 +8,43 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>健康記録アプリ</h1>
-  <p>ここに入力画面のパーツを作っていくよ</p>
+  <div class="container">
+    <h2>今日の記録</h2>
+
+    <div class="section">
+      <h3>食事</h3>
+      <label>開始: <input type="time" id="meal-start"></label>
+      <label>終了: <input type="time" id="meal-end"></label>
+    </div>
+
+    <div class="section toggles">
+      <label><input type="checkbox" id="meds"> 薬</label>
+      <label><input type="checkbox" id="alcohol"> アルコール</label>
+      <label><input type="checkbox" id="caffeine"> カフェイン</label>
+    </div>
+
+    <div class="section">
+      <h3>睡眠</h3>
+      <label>就寝: <input type="time" id="sleep-start"></label>
+      <label>起床: <input type="time" id="sleep-end"></label>
+      <label>中途覚醒 (回数や時間): <input type="text" id="sleep-mid"></label>
+      <label>眠気レベル:
+        <select id="sleep-level">
+          <option value="">選択してください</option>
+          <option value="1">1 (すっきり)</option>
+          <option value="2">2</option>
+          <option value="3">3 (普通)</option>
+          <option value="4">4</option>
+          <option value="5">5 (とても眠い)</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="section">
+      <h3>メモ</h3>
+      <textarea id="memo" rows="3"></textarea>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>
